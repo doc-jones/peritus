@@ -1,0 +1,440 @@
+{
+    "areas": [
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "matklad",
+          "xanewok"
+        ],
+        "familiar": [],
+        "name": "RLS"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "nikomatsakis",
+          "eddyb",
+          "Zoxc",
+          "michaelwoerister"
+        ],
+        "familiar": [],
+        "name": "query system"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "michaelwoerister",
+          "oli-obk"
+        ],
+        "familiar": [],
+        "name": "metadata encoding/decoding"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "michaelwoerister",
+          "nikomatsakis"
+        ],
+        "familiar": [],
+        "name": "incremental compilation"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "michaelwoerister"
+        ],
+        "familiar": [],
+        "name": "codegen unit partitioning"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "alexcrichton",
+          "michaelwoerister"
+        ],
+        "familiar": [],
+        "name": "ThinLTO"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "michaelwoerister"
+        ],
+        "familiar": [],
+        "name": "linker-plugin LTO (xLTO)"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_typeck"
+        ],
+        "experts": [
+          "nikomatsakis",
+          "eddyb"
+        ],
+        "familiar": [
+          "Centril"
+        ],
+        "name": "Typeck"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_middle/mir/interpret",
+          "src/librustc_mir/interpret"
+        ],
+        "experts": [
+          "oli-obk",
+          "RalfJung",
+          "eddyb"
+        ],
+        "familiar": [],
+        "name": "miri"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "estebank",
+          "oli-obk",
+          "zackmdavis"
+        ],
+        "familiar": [
+          "davidtwco",
+          "spastorino"
+        ],
+        "name": "Diagnostics"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_ast/ast.rs",
+          "src/librustc_ast/util",
+          "src/librustc_parse"
+        ],
+        "experts": [
+          "petrochenkov",
+          "estebank"
+        ],
+        "familiar": [
+          "Centril",
+          "davidtwco"
+        ],
+        "name": "Parser"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/rustc_lexer",
+          "src/librustc_parse/parse/lexer/"
+        ],
+        "experts": [
+          "petrochenkov",
+          "matklad"
+        ],
+        "familiar": [],
+        "name": "Lexer"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/grammar"
+        ],
+        "experts": [
+          "qmx",
+          "centril",
+          "eddyb"
+        ],
+        "familiar": [],
+        "name": "Grammar"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_middle/mir",
+          "src/librustc_mir_build/build"
+        ],
+        "experts": [
+          "nikomatsakis",
+          "eddyb",
+          "oli-obk"
+        ],
+        "familiar": [
+          "davidtwco",
+          "spastorino",
+          "jonas-schievink"
+        ],
+        "name": "MIR structure/construction"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_mir/transform"
+        ],
+        "experts": [
+          "eddyb",
+          "oli-obk",
+          "nagisa"
+        ],
+        "familiar": [
+          "wesleywiser",
+          "spastorino",
+          "tmandry",
+          "jonas-schievink"
+        ],
+        "name": "MIR optimizations"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_middle/ty/layout.rs"
+        ],
+        "experts": [
+          "eddyb",
+          "oli-obk",
+          "nagisa"
+        ],
+        "familiar": [
+          "tmandry"
+        ],
+        "name": "Type layout"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_mir_build/thir/pattern"
+        ],
+        "experts": [
+          "arielb1",
+          "varkor",
+          "oli-obk",
+          "nadrieril"
+        ],
+        "familiar": [],
+        "name": "match/exhaustiveness"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_middle/traits",
+          "src/librustc_traits"
+        ],
+        "experts": [
+          "nikomatsakis",
+          "arielb1",
+          "scalexm"
+        ],
+        "familiar": [],
+        "name": "Traits"
+      },
+      {
+        "crates": [
+          "polonius",
+          "datafrog"
+        ],
+        "directories": [],
+        "experts": [
+          "nikomatsakis"
+        ],
+        "familiar": [
+          "lqd",
+          "spastorino"
+        ],
+        "name": "Polonius"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [],
+        "familiar": [],
+        "name": "Libs"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_ast_lowering"
+        ],
+        "experts": [
+          "oli-obk"
+        ],
+        "familiar": [
+          "Centril",
+          "davidtwco"
+        ],
+        "name": "AST -> HIR lowering"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "michaelwoerister",
+          "eddyb"
+        ],
+        "familiar": [],
+        "name": "debuginfo"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "pnkfelix",
+          "arielb1"
+        ],
+        "familiar": [],
+        "name": "drop-check"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "pnkfelix",
+          "nikomatsakis"
+        ],
+        "familiar": [
+          "tmandry"
+        ],
+        "name": "dataflow"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "nikomatsakis"
+        ],
+        "familiar": [],
+        "name": "AST-borrow checker"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "arielb1",
+          "pnkfelix",
+          "matthewjasper"
+        ],
+        "familiar": [
+          "davidtwco",
+          "spastorino"
+        ],
+        "name": "MIR borrow check"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "arielb1"
+        ],
+        "familiar": [],
+        "name": "drop elaboration"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "petrochenkov"
+        ],
+        "familiar": [
+          "davidtwco"
+        ],
+        "name": "Privacy"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "petrochenkov"
+        ],
+        "familiar": [],
+        "name": "Name resolution, hygiene"
+      },
+      {
+        "crates": [],
+        "directories": [],
+        "experts": [
+          "petrochenkov"
+        ],
+        "familiar": [],
+        "name": "Macro expansion"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustc_expand/mbe.rs"
+        ],
+        "experts": [
+          "mark-i-m"
+        ],
+        "familiar": [],
+        "name": "`macro_rules` parsing and checking"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/libcore/ops/generator.rs",
+          "src/librustc_mir/transform/generator.rs",
+          "src/librustc_typeck/check/generator_interior.rs",
+          "src/test/ui/generator"
+        ],
+        "experts": [
+          "Zoxc",
+          "tmandry"
+        ],
+        "familiar": [
+          "jonas-schievink"
+        ],
+        "name": "Generators"
+      },
+      {
+        "crates": [
+          "measureme"
+        ],
+        "directories": [
+          "src/librustc_data_structures/profiling.rs"
+        ],
+        "experts": [
+          "michaelwoerister",
+          "wesleywiser"
+        ],
+        "familiar": [],
+        "name": "Self profiler"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/librustdoc",
+          "src/tools/rustdoc"
+        ],
+        "experts": [
+          "GuillaumeGomez",
+          "ollie27",
+          "Manishearth",
+          "jyn514"
+        ],
+        "familiar": [
+          "kinnison"
+        ],
+        "name": "Rustdoc"
+      },
+      {
+        "crates": [],
+        "directories": [
+          "src/bootstrap"
+        ],
+        "experts": [
+          "Mark-Simulacrum"
+        ],
+        "familiar": [
+          "jyn514",
+          "ehuss"
+        ],
+        "name": "bootstrap"
+      }
+    ]
+  }
