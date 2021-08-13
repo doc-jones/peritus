@@ -113,8 +113,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 )
                 .split(size);
 
-            let copyright = Paragraph::new("expert-CLI 2021 - just kidding - no copyrights here")
-                .style(Style::default().fg(Color::LightCyan))
+            let copyright = Paragraph::new("peritus-CLI 2021 - just kidding - no copyrights here")
+                .style(Style::default().fg(Color::LightBlue))
                 .alignment(Alignment::Center)
                 .block(
                     Block::default()
@@ -173,7 +173,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     break;
                 }
                 KeyCode::Char('h') => active_menu_item = MenuItem::Home,
-                KeyCode::Char('p') => active_menu_item = MenuItem::Experts,
+                KeyCode::Char('e') => active_menu_item = MenuItem::Experts,
                 KeyCode::Char('a') => {
                     add_random_expert_to_db().expect("can add new random expert");
                 }
@@ -217,8 +217,8 @@ fn render_home<'a>() -> Paragraph<'a> {
         Spans::from(vec![Span::raw("to")]),
         Spans::from(vec![Span::raw("")]),
         Spans::from(vec![Span::styled(
-            "Rustc Experts-CLI",
-            Style::default().fg(Color::LightBlue),
+            "Peritus the Rustc Experts-CLI",
+            Style::default().fg(Color::LightCyan),
         )]),
         Spans::from(vec![Span::raw("")]),
         Spans::from(vec![Span::raw("Press 'e' to access experts, 'a' to add random new experts and 'd' to delete the currently selected expert.")]),
