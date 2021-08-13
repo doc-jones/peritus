@@ -113,7 +113,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 )
                 .split(size);
 
-            let copyright = Paragraph::new("expert-CLI 2021 - all rights reserved")
+            let copyright = Paragraph::new("expert-CLI 2021 - just kidding - no copyrights here")
                 .style(Style::default().fg(Color::LightCyan))
                 .alignment(Alignment::Center)
                 .block(
