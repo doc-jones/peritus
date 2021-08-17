@@ -114,7 +114,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 .split(size);
 
             let copyright = Paragraph::new("peritus-CLI 2021 - just kidding - no copyrights here")
-                .style(Style::default().fg(Color::LightBlue))
+                .style(Style::default().fg(Color::LightCyan))
                 .alignment(Alignment::Center)
                 .block(
                     Block::default()
